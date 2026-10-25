@@ -26,7 +26,12 @@ function StepPage({
         <div className="absolute inset-y-0 left-2.5 w-px bg-rice/20" />
       </div>
 
-      <div className="relative flex min-w-0 flex-1 flex-col justify-between overflow-y-auto bg-rice p-6 sm:p-10">
+      <div
+        className="relative flex min-w-0 flex-1 flex-col justify-between overflow-y-auto bg-rice p-6 sm:p-10"
+        tabIndex={0}
+        role="region"
+        aria-label="Recipe step details"
+      >
         {/* gutter shadow, as if the page meets the binding */}
         <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-10 bg-gradient-to-r from-ink/10 to-transparent sm:block" />
 

@@ -71,7 +71,7 @@ export default async function DishPage({
                 />
                 <div>
                   {ing.group && (
-                    <p className="text-[11px] text-ink-soft/70">{ing.group}</p>
+                    <p className="text-[11px] text-ink-soft">{ing.group}</p>
                   )}
                   <p className="text-[15px] text-ink">
                     {ing.name}

@@ -64,11 +64,19 @@ model, and build plan.
 
 ## Status
 
-- **Phase 0 (Foundation):** done — design system, layout shell, local
-  database, admin login, home page.
-- **Phase 1 (Recipe pipeline):** done — ingest → segment → extract
-  (`gpt-6-luna`) → validate → review → approve, for all 7 dishes. Admin
-  screens at `/admin/recipes` and `/admin/review/[slug]`. Run `npm test`
-  for the validator unit tests and the Spice DNA fixture check.
-- **Next:** dish story pages, Cook with Maej simulation, and booking flow
-  — see `docs/SPEC.md` § Build plan.
+All phases complete and shipped:
+
+- **Phase 0 (Foundation):** design system, layout shell, local database,
+  admin login, home page.
+- **Phase 1 (Recipe pipeline):** ingest → segment → extract (`gpt-6-luna`)
+  → validate → review → approve, for all 7 dishes. Admin screens at
+  `/admin/recipes` and `/admin/review/[slug]`. Run `npm test` for the
+  validator unit tests and the Spice DNA fixture check.
+- **Phase 2 (Dish stories):** source-linked story pages for every approved
+  dish at `/kitchen/[slug]`.
+- **Phase 3 (The Table):** weekend menu, seat-capped reservations, mock
+  test-mode payment, waitlist, at `/this-weekend` and `/book/[eventId]`.
+- **Phase 4 (Cook with Maej):** the interactive cooking simulation at
+  `/cook`, driven by the approved recipe data.
+- **Phase 5 (Polish):** home page orchestration, accessibility pass,
+  copy pass.
