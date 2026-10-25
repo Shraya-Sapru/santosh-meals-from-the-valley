@@ -125,7 +125,55 @@ function createSchema(db: Database.Database) {
   `);
 }
 
+type ApprovedSeedRecipe = {
+  slug: string;
+  data: Record<string, unknown>;
+  status: string;
+  version: number;
+};
+type ApprovedSeedPhoto = { slot_id: string; url: string; alt: string; status: string };
+
+function seedApprovedContent(db: Database.Database) {
+  const recipeCount = db
+    .prepare("SELECT COUNT(*) as count FROM recipes")
+    .get() as { count: number };
+  if (recipeCount.count > 0) return;
+
+  const fixturePath = path.resolve(process.cwd(), "content", "approved-seed.json");
+  if (!fs.existsSync(fixturePath)) return;
+
+  const fixture = JSON.parse(fs.readFileSync(fixturePath, "utf-8")) as {
+    recipes: ApprovedSeedRecipe[];
+    photos: ApprovedSeedPhoto[];
+  };
+
+  const insertRecipe = db.prepare(
+    `INSERT INTO recipes (slug, data, status, version, approved_at)
+     VALUES (@slug, @data, @status, @version, datetime('now'))`
+  );
+  const insertPhoto = db.prepare(
+    `INSERT INTO photos (slot_id, url, alt, status) VALUES (@slot_id, @url, @alt, @status)`
+  );
+
+  const importAll = db.transaction(() => {
+    for (const recipe of fixture.recipes) {
+      insertRecipe.run({
+        slug: recipe.slug,
+        data: JSON.stringify(recipe.data),
+        status: recipe.status,
+        version: recipe.version,
+      });
+    }
+    for (const photo of fixture.photos) {
+      insertPhoto.run(photo);
+    }
+  });
+  importAll();
+}
+
 function seed(db: Database.Database) {
+  seedApprovedContent(db);
+
   const eventCount = db
     .prepare("SELECT COUNT(*) as count FROM events")
     .get() as { count: number };

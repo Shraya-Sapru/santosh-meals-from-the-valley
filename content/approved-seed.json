@@ -1,0 +1,1860 @@
+{
+  "recipes": [
+    {
+      "slug": "dum-aaloo",
+      "data": {
+        "slug": "dum-aaloo",
+        "name": "Kashmiri Dum Aaloo",
+        "course": "main",
+        "isVeg": true,
+        "description": "This is the most popular vegetarian dish following the same authentic principle of slow cooking in a spice yogurt based gravy.",
+        "ingredients": [
+          {
+            "id": "potatoes",
+            "name": "rounded potatoes",
+            "quantity": "12 medium sized",
+            "alternatives": [],
+            "sourceText": "12 medium sized rounded potatoes"
+          },
+          {
+            "id": "mustard-oil",
+            "name": "Mustard oil",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "Mustard oil – for deep frying."
+          },
+          {
+            "id": "cloves",
+            "name": "Cloves",
+            "quantity": "3",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "3 Cloves"
+          },
+          {
+            "id": "cumin-seeds",
+            "name": "cumin (jeera) seeds",
+            "quantity": "½ tsp",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "½ tsp cumin (jeera) seeds"
+          },
+          {
+            "id": "black-cardamoms",
+            "name": "black cardamoms (silted)",
+            "quantity": "2",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "2 black cardamoms (silted)"
+          },
+          {
+            "id": "bay-leaves",
+            "name": "bay leaves",
+            "quantity": "2",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "2 bay leaves"
+          },
+          {
+            "id": "cinnamon",
+            "name": "cinnamon stick (broken into pieces)",
+            "quantity": "1 inch",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "1 inch cinnamon stick (broken into pieces)"
+          },
+          {
+            "id": "asafoetida",
+            "name": "asafoetida (heeng)",
+            "quantity": "A pinch",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "A pinch of asafoetida (heeng)"
+          },
+          {
+            "id": "kashmiri-chilli-powder",
+            "name": "kashmiri chilli powder",
+            "quantity": "2 tsp",
+            "group": "Powdered spices",
+            "alternatives": [],
+            "sourceText": "2 tsp kashmiri chilli powder"
+          },
+          {
+            "id": "fennel-powder",
+            "name": "fennel powder (saunf)",
+            "quantity": "2 tsp",
+            "group": "Powdered spices",
+            "alternatives": [],
+            "sourceText": "2 tsp fennel powder (saunf)"
+          },
+          {
+            "id": "ginger-powder",
+            "name": "ginger  powder",
+            "quantity": "½ tsp",
+            "group": "Powdered spices",
+            "alternatives": [],
+            "sourceText": "½ tsp ginger  powder"
+          },
+          {
+            "id": "garam-masala",
+            "name": "garam masala",
+            "quantity": "½ tsp",
+            "group": "Powdered spices",
+            "alternatives": [],
+            "sourceText": "½ tsp garam masala"
+          },
+          {
+            "id": "salt",
+            "name": "salt (according to taste)",
+            "quantity": "1 to 1½ tsp",
+            "group": "Powdered spices",
+            "alternatives": [],
+            "sourceText": "1 to 1½ tsp salt (according to taste)"
+          },
+          {
+            "id": "curd",
+            "name": "Whisked Curd",
+            "quantity": "3 to 4 tbs",
+            "alternatives": [],
+            "sourceText": "  3 to 4 tbs Whisked Curd"
+          },
+          {
+            "id": "oil",
+            "name": "oil",
+            "quantity": "about 4 tbs",
+            "alternatives": [],
+            "sourceText": "Take about 4 tbs of oil in a deep pan or kadai."
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "potatoes",
+            "action": "Boil the potatoes in a pressure cooker for 1 or 2 whistle max., let it cool",
+            "ingredientIds": [
+              "potatoes"
+            ],
+            "heat": "unspecified",
+            "duration": "1 or 2 whistle max.",
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "pressure_whistles",
+            "sourceText": "Boil the potatoes in a pressure cooker for 1 or 2 whistle max., let it cool"
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "potatoes",
+            "action": "Peel it. Pierce each potato several times with a small fork or a tooth pick, ensuring that it doesn’t break and stays as a whole",
+            "ingredientIds": [
+              "potatoes"
+            ],
+            "heat": "off",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": "ensuring that it doesn’t break and stays as a whole",
+            "interaction": "pierce",
+            "sourceText": "Peel it. Pierce each potato several times with a small fork or a tooth pick, ensuring that it doesn’t break and stays as a whole"
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "potatoes",
+            "action": "Deep fry the potatoes, till they turn a little more than golden brown with slightly wrinkled texture.",
+            "ingredientIds": [
+              "potatoes",
+              "mustard-oil"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "till they turn a little more than golden brown with slightly wrinkled texture.",
+            "warning": null,
+            "interaction": "deep_fry",
+            "sourceText": "Deep fry the potatoes, till they turn a little more than golden brown with slightly wrinkled texture."
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "gravy",
+            "action": "Take about 4 tbs of oil in a deep pan or kadai. Heat it. Add cloves, cumin seeds, black cardamoms, bay leaves, cinnamon, asafoetida (heeng), sauté it for 1 or 2 min. on a slow flame.",
+            "ingredientIds": [
+              "oil",
+              "cloves",
+              "cumin-seeds",
+              "black-cardamoms",
+              "bay-leaves",
+              "cinnamon",
+              "asafoetida"
+            ],
+            "heat": "low",
+            "duration": "1 or 2 min.",
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "timed_add",
+            "sourceText": "Take about 4 tbs of oil in a deep pan or kadai. Heat it. Add cloves, cumin seeds, black cardamoms, bay leaves, cinnamon, asafoetida (heeng), sauté it for 1 or 2 min. on a slow flame."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "gravy",
+            "action": "Add Kashmiri chilly powder. Mix it well.",
+            "ingredientIds": [
+              "kashmiri-chilli-powder"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "Add Kashmiri chilly powder. Mix it well."
+          },
+          {
+            "id": "step-6",
+            "order": 6,
+            "phase": "gravy",
+            "action": "Add the whisked curd and keep on a stirring it continuously till the gravy thickens and starts leaving the oil on the sides.",
+            "ingredientIds": [
+              "curd"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "till the gravy thickens and starts leaving the oil on the sides.",
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "Add the whisked curd and keep on a stirring it continuously till the gravy thickens and starts leaving the oil on the sides."
+          },
+          {
+            "id": "step-7",
+            "order": 7,
+            "phase": "gravy",
+            "action": "At this stage add all the potatoes in the pan and let it cook without stirring it for 2 min. on slow heat with lid on.",
+            "ingredientIds": [
+              "potatoes"
+            ],
+            "heat": "low",
+            "duration": "2 min.",
+            "sensoryCue": null,
+            "warning": "without stirring it",
+            "interaction": "cover_simmer",
+            "sourceText": "At this stage add all the potatoes in the pan and let it cook without stirring it for 2 min. on slow heat with lid on."
+          },
+          {
+            "id": "step-8",
+            "order": 8,
+            "phase": "gravy",
+            "action": "Add water in the pan, sufficient enough to cover all the potatoes",
+            "ingredientIds": [
+              "potatoes"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "pour_water",
+            "sourceText": "Add water in the pan, sufficient enough to cover all the potatoes"
+          },
+          {
+            "id": "step-9",
+            "order": 9,
+            "phase": "gravy",
+            "action": "Add fennel powder, ginger powder and salt",
+            "ingredientIds": [
+              "fennel-powder",
+              "ginger-powder",
+              "salt"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "drop_in",
+            "sourceText": "Add fennel powder, ginger powder and salt"
+          },
+          {
+            "id": "step-10",
+            "order": 10,
+            "phase": "gravy",
+            "action": "Bring to boil on high flame and then for 15-20 min. on low flame",
+            "ingredientIds": [],
+            "heat": "lowered",
+            "duration": "15-20 min.",
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "cover_simmer",
+            "sourceText": "Bring to boil on high flame and then for 15-20 min. on low flame"
+          },
+          {
+            "id": "step-11",
+            "order": 11,
+            "phase": "gravy",
+            "action": "Check occasionally, Reduce the water quantity to almost half",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "to almost half",
+            "warning": null,
+            "interaction": "cover_simmer",
+            "sourceText": "Check occasionally, Reduce the water quantity to almost half"
+          },
+          {
+            "id": "step-12",
+            "order": 12,
+            "phase": "serving",
+            "action": "Potato curry/Dum Aaloo is ready. Sprinkle some garam masala before serving",
+            "ingredientIds": [
+              "garam-masala"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "sprinkle_stir",
+            "sourceText": "Potato curry/Dum Aaloo is ready. Sprinkle some garam masala before serving"
+          },
+          {
+            "id": "step-13",
+            "order": 13,
+            "phase": "serving",
+            "action": "Tastes best with plain steamed rice.",
+            "ingredientIds": [],
+            "heat": "off",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "Tastes best with plain steamed rice."
+          }
+        ],
+        "variants": [],
+        "servingNote": "Tastes best with plain steamed rice.",
+        "flags": [
+          {
+            "type": "ambiguous_oil",
+            "message": "The ingredient list specifies mustard oil for deep frying, while the pan step specifies about 4 tbs of oil without naming its type."
+          },
+          {
+            "type": "unclear_term",
+            "message": "The source describes the black cardamoms as “silted”; the intended meaning is unclear."
+          },
+          {
+            "type": "coverage",
+            "message": "This source line may not be reflected in any extracted field: \"- Powdered spices –\""
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 3
+    },
+    {
+      "slug": "kehwa",
+      "data": {
+        "slug": "kehwa",
+        "name": "Kehwa",
+        "course": "starter",
+        "isVeg": true,
+        "description": "A light, golden-amber green tea simmered with cardamom, cinnamon, saffron, and crushed almonds.",
+        "ingredients": [
+          {
+            "id": "water",
+            "name": "Water",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "Bring water to a boil with crushed cardamom (2) cinnamon (1/2 inch crushed), and saffron (4 strands)."
+          },
+          {
+            "id": "green-tea",
+            "name": "Kashmiri green tea leaves or specialized loose-leaf green tea",
+            "quantity": "a little more than a pinch",
+            "group": "Green Tea Base",
+            "alternatives": [],
+            "sourceText": "Green Tea Base: Kashmiri green tea leaves or specialized loose-leaf green tea.\nAdd Green Tea (a little more than a pinch ,crushed generously between the palms of your hands)"
+          },
+          {
+            "id": "cardamom",
+            "name": "Crushed green cardamom",
+            "quantity": "2",
+            "group": "Whole Spices",
+            "alternatives": [],
+            "sourceText": "Whole Spices: Crushed green cardamom, cinnamon sticks,\nBring water to a boil with crushed cardamom (2) cinnamon (1/2 inch crushed), and saffron (4 strands)."
+          },
+          {
+            "id": "cinnamon",
+            "name": "Cinnamon",
+            "quantity": "1/2 inch crushed",
+            "group": "Whole Spices",
+            "alternatives": [],
+            "sourceText": "Whole Spices: Crushed green cardamom, cinnamon sticks,\nBring water to a boil with crushed cardamom (2) cinnamon (1/2 inch crushed), and saffron (4 strands)."
+          },
+          {
+            "id": "saffron",
+            "name": "Kashmiri saffron strands",
+            "quantity": "4 strands",
+            "alternatives": [],
+            "sourceText": "Kashmiri saffron strands for aroma and a golden hue.\nBring water to a boil with crushed cardamom (2) cinnamon (1/2 inch crushed), and saffron (4 strands)."
+          },
+          {
+            "id": "sweetener",
+            "name": "Sugar or honey",
+            "quantity": "1 tsp.or as per the taste",
+            "group": "Sweetener",
+            "alternatives": [],
+            "sourceText": "Sweetener: Sugar or honey added to taste. \nStir in sugar or honey (1 tsp.or as per the taste)then strain the golden liquid into cups"
+          },
+          {
+            "id": "almonds",
+            "name": "Almonds",
+            "quantity": null,
+            "group": "Nuts",
+            "alternatives": [],
+            "sourceText": "Nuts: Sliced or crushed almonds as a garnish.\nTop each cup generously with crushed or slivered almonds before serving hot."
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "Boil Spices",
+            "action": "Bring water to a boil with crushed cardamom, cinnamon, and saffron.",
+            "ingredientIds": [
+              "water",
+              "cardamom",
+              "cinnamon",
+              "saffron"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "Boil Spices: Bring water to a boil with crushed cardamom (2) cinnamon (1/2 inch crushed), and saffron (4 strands)."
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "Boil Spices",
+            "action": "Let it simmer so that the flavors infuse.",
+            "ingredientIds": [
+              "water",
+              "cardamom",
+              "cinnamon",
+              "saffron"
+            ],
+            "heat": "unspecified",
+            "duration": "a few minutes",
+            "sensoryCue": "the flavors infuse",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "Let it simmer for a few minutes so that the flavors infuse."
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "Add Green Tea",
+            "action": "Add the green tea, crushed generously between the palms of your hands.",
+            "ingredientIds": [
+              "green-tea"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "drop_in",
+            "sourceText": "Add Green Tea (a little more than a pinch ,crushed generously between the palms of your hands)"
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "Add Green Tea",
+            "action": "Turn off or lower the heat and cover with a lid gently.",
+            "ingredientIds": [
+              "green-tea"
+            ],
+            "heat": "lowered",
+            "duration": "2–3 minutes",
+            "sensoryCue": null,
+            "warning": "Do not over-boil the green tea to avoid bitterness.",
+            "interaction": "heat_dial",
+            "sourceText": "Turn off or lower the heat and cover with a lid gently for 2–3 minutes. Do not over-boil the green tea to avoid bitterness."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "Sweeten and Strain",
+            "action": "Stir in sugar or honey.",
+            "ingredientIds": [
+              "sweetener"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "Sweeten and Strain: Stir in sugar or honey (1 tsp.or as per the taste)then strain the golden liquid into cups"
+          },
+          {
+            "id": "step-6",
+            "order": 6,
+            "phase": "Sweeten and Strain",
+            "action": "Strain the golden liquid into cups.",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "golden",
+            "warning": null,
+            "interaction": "strain",
+            "sourceText": "Sweeten and Strain: Stir in sugar or honey (1 tsp.or as per the taste)then strain the golden liquid into cups"
+          },
+          {
+            "id": "step-7",
+            "order": 7,
+            "phase": "Garnish",
+            "action": "Top each cup generously with crushed or slivered almonds before serving hot.",
+            "ingredientIds": [
+              "almonds"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "Garnish: Top each cup generously with crushed or slivered almonds before serving hot."
+          }
+        ],
+        "variants": [],
+        "servingNote": "Unlike everyday milk teas, it is light, golden-amber, and poured fresh - often garnished with extra almond slivers and served to guests as a symbol of hospitality.",
+        "flags": [
+          {
+            "type": "alternative",
+            "message": "The green tea base may be Kashmiri green tea leaves or specialized loose-leaf green tea."
+          },
+          {
+            "type": "quantity",
+            "message": "The cardamom quantity is given as “2” without a unit."
+          },
+          {
+            "type": "alternative",
+            "message": "The sweetener may be sugar or honey, and the amount is given as “1 tsp.or as per the taste”."
+          },
+          {
+            "type": "alternative",
+            "message": "The almonds may be sliced or crushed in the ingredient list; the garnish instruction says crushed or slivered."
+          },
+          {
+            "type": "missing_quantity",
+            "message": "The amount of water is not stated."
+          },
+          {
+            "type": "heat_ambiguity",
+            "message": "The instruction says to turn off or lower the heat; it does not specify which option to use."
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 3
+    },
+    {
+      "slug": "kong-phirin",
+      "data": {
+        "slug": "kong-phirin",
+        "name": "Kong Phirin",
+        "course": "dessert",
+        "isVeg": true,
+        "description": "Kong Phirin is a creamy, golden pudding prepared during Kashmiri festivals and family celebrations.",
+        "ingredients": [
+          {
+            "id": "semolina",
+            "name": "semolina",
+            "quantity": "1 cup",
+            "alternatives": [],
+            "sourceText": "- 1 cup semolina,"
+          },
+          {
+            "id": "milk",
+            "name": "milk",
+            "quantity": "4 cups",
+            "alternatives": [],
+            "sourceText": "- 4 cups milk,"
+          },
+          {
+            "id": "sugar",
+            "name": "sugar",
+            "quantity": "1 cup",
+            "alternatives": [],
+            "sourceText": "- 1 cup sugar,"
+          },
+          {
+            "id": "ghee",
+            "name": "ghee",
+            "quantity": "2 tsp",
+            "alternatives": [],
+            "sourceText": "- 2 tsp ghee,"
+          },
+          {
+            "id": "saffron",
+            "name": "Kashmiri saffron strands",
+            "quantity": "a pinch",
+            "alternatives": [],
+            "sourceText": "- a pinch of Kashmiri saffron strands,"
+          },
+          {
+            "id": "cardamom-powder",
+            "name": "cardamom powder",
+            "quantity": "1 tsp",
+            "alternatives": [],
+            "sourceText": "- 1 tsp cardamom powder, and"
+          },
+          {
+            "id": "chopped-nuts",
+            "name": "a mix of chopped almonds and pistachios",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "- a mix of chopped almonds and pistachios."
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "Roasting",
+            "action": "Heat ghee in a heavy-bottomed pan and roast the semolina on low heat until it turns light golden and smells nutty.",
+            "ingredientIds": [
+              "ghee",
+              "semolina"
+            ],
+            "heat": "low",
+            "duration": null,
+            "sensoryCue": "light golden and smells nutty",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "- Heat ghee in a heavy-bottomed pan and roast the semolina on low heat until it turns light golden and smells nutty."
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "Adding milk",
+            "action": "Warm the milk separately and slowly pour it into the roasted semolina, stirring constantly to prevent lumps.",
+            "ingredientIds": [
+              "milk",
+              "semolina"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": "to prevent lumps",
+            "interaction": "slow_pour_with_stir",
+            "sourceText": "- Warm the milk separately and slowly pour it into the roasted semolina, stirring constantly to prevent lumps."
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "Cooking",
+            "action": "Cook on low heat until the mixture thickens into a smooth pudding.",
+            "ingredientIds": [
+              "semolina",
+              "milk"
+            ],
+            "heat": "low",
+            "duration": null,
+            "sensoryCue": "thickens into a smooth pudding",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "- Cook on low heat until the mixture thickens into a smooth pudding."
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "Finishing",
+            "action": "Stir in sugar, cardamom powder, and saffron strands.",
+            "ingredientIds": [
+              "sugar",
+              "cardamom-powder",
+              "saffron"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "- Stir in sugar, cardamom powder, and saffron strands."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "Serving",
+            "action": "Pour into bowls, garnish generously with chopped nuts, and serve warm or chilled.",
+            "ingredientIds": [
+              "chopped-nuts"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "- Pour into bowls, garnish generously with chopped nuts, and serve warm or chilled."
+          }
+        ],
+        "variants": [],
+        "servingNote": "serve warm or chilled.",
+        "flags": [
+          {
+            "type": "title_alternative",
+            "message": "The opening title describes the pudding as semolina or rice pudding, while the ingredient list and instructions specify semolina."
+          },
+          {
+            "type": "missing_quantity",
+            "message": "No quantity is stated for the mix of chopped almonds and pistachios."
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 2
+    },
+    {
+      "slug": "mutton-yakhni",
+      "data": {
+        "slug": "mutton-yakhni",
+        "name": "Mutton Yakhni",
+        "course": "main",
+        "isVeg": false,
+        "description": "is a rich yoghurt based mutton gravy and does not make use of turmeric or red chilli powder",
+        "ingredients": [
+          {
+            "id": "ingredient-1",
+            "name": "Mutton (with bone preferably fattier cuts like breast, shoulder or ribs.",
+            "quantity": "1 Kg",
+            "alternatives": [],
+            "sourceText": "Mutton: 1 Kg (with bone preferably fattier cuts like breast, shoulder or ribs."
+          },
+          {
+            "id": "ingredient-2",
+            "name": "Yoghurt full fat fresh Yoghurt smoothly whisked",
+            "quantity": "500 gms",
+            "alternatives": [],
+            "sourceText": "Yoghurt : 500 gms full fat fresh Yoghurt smoothly whisked"
+          },
+          {
+            "id": "ingredient-3",
+            "name": "fennel powder",
+            "quantity": "3 tsp",
+            "alternatives": [],
+            "sourceText": "3 tsp fennel powder"
+          },
+          {
+            "id": "ingredient-4",
+            "name": "dry ginger powder",
+            "quantity": "1 tsp",
+            "alternatives": [],
+            "sourceText": "1 tsp dry ginger powder."
+          },
+          {
+            "id": "ingredient-5",
+            "name": "Asafoetida",
+            "quantity": "a pinch",
+            "alternatives": [],
+            "sourceText": "Asafoetida – a pinch"
+          },
+          {
+            "id": "ingredient-6",
+            "name": "green cardamoms",
+            "quantity": "4-5",
+            "alternatives": [],
+            "sourceText": "4-5 green cardamoms and 2 black cardamoms lightly crushed"
+          },
+          {
+            "id": "ingredient-7",
+            "name": "black cardamoms",
+            "quantity": "2",
+            "alternatives": [],
+            "sourceText": "4-5 green cardamoms and 2 black cardamoms lightly crushed"
+          },
+          {
+            "id": "ingredient-8",
+            "name": "cloves",
+            "quantity": "4 to 5",
+            "alternatives": [],
+            "sourceText": "4 to 5 cloves"
+          },
+          {
+            "id": "ingredient-9",
+            "name": "cinnamon stick (broken into few pieces)",
+            "quantity": "1",
+            "alternatives": [],
+            "sourceText": "1 cinnamon stick (broken into few pieces)"
+          },
+          {
+            "id": "ingredient-10",
+            "name": "cumin or caraway seeds (shahi jeera)",
+            "quantity": "1 tsp",
+            "alternatives": [],
+            "sourceText": "1 tsp cumin or caraway seeds (shahi jeera)"
+          },
+          {
+            "id": "ingredient-11",
+            "name": "Mustard oil or ghee",
+            "quantity": "4 to 5 table spoons",
+            "alternatives": [],
+            "sourceText": "Mustard oil 4 to 5 table spoons or ghee"
+          },
+          {
+            "id": "ingredient-12",
+            "name": "Salt",
+            "quantity": "to taste",
+            "alternatives": [],
+            "sourceText": "Salt to taste"
+          },
+          {
+            "id": "ingredient-13",
+            "name": "water",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "Boil the mutton in a pot or pressure cooker with water, salt, asafoetida, ginger powder and fennel powder."
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "Cook",
+            "action": "Boil the mutton in a pot or pressure cooker with water, salt, asafoetida, ginger powder and fennel powder. Cook until the meat is tender",
+            "ingredientIds": [
+              "ingredient-1",
+              "ingredient-3",
+              "ingredient-4",
+              "ingredient-5",
+              "ingredient-12",
+              "ingredient-13"
+            ],
+            "heat": "unspecified",
+            "duration": "until the meat is tender",
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "cover_simmer",
+            "sourceText": "Boil the mutton in a pot or pressure cooker with water, salt, asafoetida, ginger powder and fennel powder. Cook until the meat is tender"
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "Add yoghurt",
+            "action": "Keep the mutton on boil and add slowly the whisked curd, stirring continuously to prevent curdling, continue boiling till a smooth slightly thick gravy is formed.",
+            "ingredientIds": [
+              "ingredient-2"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "a smooth slightly thick gravy",
+            "warning": "to prevent curdling",
+            "interaction": "slow_pour_with_stir",
+            "sourceText": "Keep the mutton on boil and add slowly the whisked curd, stirring continuously to prevent curdling, continue boiling till a smooth slightly thick gravy is formed."
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "Temper",
+            "action": "Heat mustard oil in a heavy bottomed pan until the pungent smoke settles, then add cloves, cinnamon stick, cumin and cardamoms, thereafter, add it immediately to mutton yakhni gravy.",
+            "ingredientIds": [
+              "ingredient-6",
+              "ingredient-7",
+              "ingredient-8",
+              "ingredient-9",
+              "ingredient-10",
+              "ingredient-11"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "the pungent smoke settles",
+            "warning": null,
+            "interaction": "timed_add",
+            "sourceText": "Heat mustard oil in a heavy bottomed pan until the pungent smoke settles, then add cloves, cinnamon stick, cumin and cardamoms, thereafter, add it immediately to mutton yakhni gravy."
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "Finish",
+            "action": "Boil for few minutes till the surface of the gravy gives a light silky finish.",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": "few minutes",
+            "sensoryCue": "the surface of the gravy gives a light silky finish",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "Boil for few minutes till the surface of the gravy gives a light silky finish."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "Serve",
+            "action": "Serve hot with steamed rice.",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "Serve hot with steamed rice."
+          }
+        ],
+        "variants": [],
+        "servingNote": "Serve hot with steamed rice.",
+        "flags": [
+          {
+            "type": "alternative_ingredient",
+            "message": "The source lists cumin or caraway seeds (shahi jeera); it does not specify which one to use."
+          },
+          {
+            "type": "alternative_ingredient",
+            "message": "The source lists mustard oil or ghee, without clarifying whether the stated quantity applies to both alternatives."
+          },
+          {
+            "type": "alternative_method",
+            "message": "The source allows boiling the mutton in a pot or pressure cooker but does not give separate instructions for either method."
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "slug": "nadru-yakhni",
+      "data": {
+        "slug": "nadru-yakhni",
+        "name": "Nadru Yakhni (Lotus Stem Curry)",
+        "course": "main",
+        "isVeg": true,
+        "description": "Nadru Yakhni is a traditional Kashmiri yogurt-based curry made with tender lotus stem",
+        "ingredients": [
+          {
+            "id": "lotus-stem",
+            "name": "Lotus Stem",
+            "quantity": "500 grams",
+            "alternatives": [],
+            "sourceText": "- Lotus Stem  500 grams, peeled and cut into 2 to 3 inches whole pieces"
+          },
+          {
+            "id": "yoghurt",
+            "name": "Yoghurt (Curd)",
+            "quantity": "2 cups/500 ml",
+            "alternatives": [],
+            "sourceText": "- Yoghurt (Curd): 2 cups/500 ml, fresh and whisked smooth"
+          },
+          {
+            "id": "mustard-oil-ghee",
+            "name": "Mustard oil/Ghee",
+            "quantity": "3 tablespoons",
+            "alternatives": [],
+            "sourceText": "- Mustard oil/Ghee: 3 tablespoons"
+          },
+          {
+            "id": "fennel-powder",
+            "name": "fennel powder (saunf)",
+            "quantity": "2 teaspoons",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 2 teaspoons fennel powder (saunf)"
+          },
+          {
+            "id": "dry-ginger-powder",
+            "name": "dry ginger powder (soonth)",
+            "quantity": "1 teaspoon",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 1 teaspoon dry ginger powder (soonth)"
+          },
+          {
+            "id": "asafoetida",
+            "name": "asafoetida (hing)",
+            "quantity": "1 pinch",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 1 pinch asafoetida (hing)"
+          },
+          {
+            "id": "black-cardamoms",
+            "name": "black cardamoms(badi elaichi)",
+            "quantity": "2",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 2 black cardamoms(badi elaichi) (slit)"
+          },
+          {
+            "id": "green-cardamoms",
+            "name": "green cardamoms(choti elaichi)",
+            "quantity": "3–4",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 3–4 green cardamoms(choti elaichi) (slit)"
+          },
+          {
+            "id": "cloves",
+            "name": "cloves(laung)",
+            "quantity": "4–6",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 4–6 cloves(laung)"
+          },
+          {
+            "id": "cinnamon-sticks",
+            "name": "cinnamon sticks",
+            "quantity": "1–2",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 1–2 cinnamon sticks (broken into small pieces)"
+          },
+          {
+            "id": "bay-leaf",
+            "name": "bay leaf (tej patta)",
+            "quantity": "1",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- 1 bay leaf (tej patta)"
+          },
+          {
+            "id": "caraway-seeds",
+            "name": "caraway seeds (shahi jeera)",
+            "quantity": "½ teaspoon",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- ½ teaspoon caraway seeds (shahi jeera)"
+          },
+          {
+            "id": "salt",
+            "name": "Salt",
+            "quantity": "To taste",
+            "group": "Spices",
+            "alternatives": [],
+            "sourceText": "- Salt: To taste"
+          },
+          {
+            "id": "water",
+            "name": "Water",
+            "quantity": "1 to 2 cups",
+            "alternatives": [],
+            "sourceText": "- Water: 1 to 2 cups"
+          },
+          {
+            "id": "crushed-dry-mint-leaves",
+            "name": "crushed dry mint leaves",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "Finish with a light sprinkle of crushed dry mint leaves."
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "Preparation",
+            "action": "Peel the outer skin of the stem lightly. Wash thoroughly to clean dirt from the holes, and slice into 2 to 3 inch whole pieces.",
+            "ingredientIds": [
+              "lotus-stem"
+            ],
+            "heat": "off",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "none",
+            "sourceText": "- Peel the outer skin of the stem lightly. Wash thoroughly to clean dirt from the holes, and slice into 2 to 3 inch whole pieces."
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "Cooking",
+            "action": "Boil the sliced lotus stems in water with a little salt ,fennel powder and ginger powder until tender",
+            "ingredientIds": [
+              "lotus-stem",
+              "water",
+              "salt",
+              "fennel-powder",
+              "dry-ginger-powder"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "tender",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "- Boil the sliced lotus stems in water with a little salt ,fennel powder and ginger powder until tender (or pressure cook for 1–2 whistles)"
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "Cooking",
+            "action": "Add the whisked lump free yoghurt to the lotus stem on high flame and keep on stirring continuously to prevent curdling. Let  the curry thicken a bit",
+            "ingredientIds": [
+              "yoghurt",
+              "lotus-stem"
+            ],
+            "heat": "high",
+            "duration": null,
+            "sensoryCue": "the curry thicken a bit",
+            "warning": "to prevent curdling",
+            "interaction": "stir_high_heat",
+            "sourceText": "- Add the whisked lump free yoghurt to the lotus stem on high flame and keep on stirring continuously to prevent curdling. Let  the curry thicken a bit"
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "Tempering",
+            "action": "Heat mustard oil or ghee in a heavy-bottomed pan.",
+            "ingredientIds": [
+              "mustard-oil-ghee"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "Temper the Spices: Heat mustard oil or ghee in a heavy-bottomed pan."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "Tempering",
+            "action": "Add asafoetida, bay leaf, cinnamon, green and black cardamoms, cloves, and caraway seeds letting them crackle",
+            "ingredientIds": [
+              "asafoetida",
+              "bay-leaf",
+              "cinnamon-sticks",
+              "green-cardamoms",
+              "black-cardamoms",
+              "cloves",
+              "caraway-seeds"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "letting them crackle",
+            "warning": null,
+            "interaction": "drop_in",
+            "sourceText": "Add asafoetida, bay leaf, cinnamon, green and black cardamoms, cloves, and caraway seeds letting them crackle"
+          },
+          {
+            "id": "step-6",
+            "order": 6,
+            "phase": "Cooking",
+            "action": "Add the tempering to the lotus stem curry and let it cook for 5 minutes on slow flame so that the stem absorbs all the flavors.",
+            "ingredientIds": [
+              "lotus-stem"
+            ],
+            "heat": "low",
+            "duration": "5 minutes",
+            "sensoryCue": "so that the stem absorbs all the flavors",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "Add the tempering to the lotus stem curry and let it cook for 5 minutes on slow flame so that the stem absorbs all the flavors."
+          },
+          {
+            "id": "step-7",
+            "order": 7,
+            "phase": "Finishing",
+            "action": "Finish with a light sprinkle of crushed dry mint leaves.",
+            "ingredientIds": [
+              "crushed-dry-mint-leaves"
+            ],
+            "heat": "off",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "Finish with a light sprinkle of crushed dry mint leaves."
+          }
+        ],
+        "variants": [
+          {
+            "name": "Pressure-cook method",
+            "replacesStepIds": [
+              "step-2"
+            ],
+            "steps": [
+              {
+                "id": "variant-pressure-step-1",
+                "order": 1,
+                "phase": "Cooking",
+                "action": "pressure cook for 1–2 whistles",
+                "ingredientIds": [
+                  "lotus-stem",
+                  "water",
+                  "salt",
+                  "fennel-powder",
+                  "dry-ginger-powder"
+                ],
+                "heat": "unspecified",
+                "duration": "1–2 whistles",
+                "sensoryCue": null,
+                "warning": null,
+                "interaction": "pressure_whistles",
+                "sourceText": "- Boil the sliced lotus stems in water with a little salt ,fennel powder and ginger powder until tender (or pressure cook for 1–2 whistles)"
+              }
+            ],
+            "sourceText": "- Boil the sliced lotus stems in water with a little salt ,fennel powder and ginger powder until tender (or pressure cook for 1–2 whistles)"
+          }
+        ],
+        "servingNote": "Undoubtedly tastes best with boiled rice.",
+        "flags": [
+          {
+            "type": "alternative",
+            "message": "The source lists mustard oil or ghee as alternatives."
+          },
+          {
+            "type": "quantity_ambiguity",
+            "message": "The ingredient list says “Salt: To taste,” while the boiling instruction says “a little salt.”"
+          },
+          {
+            "type": "missing_quantity",
+            "message": "Crushed dry mint leaves are mentioned in the method but no quantity is stated."
+          },
+          {
+            "type": "coverage",
+            "message": "This source line may not be reflected in any extracted field: \"- Undoubtedly tastes best with boiled rice.\""
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "slug": "nadur-monje",
+      "data": {
+        "slug": "nadur-monje",
+        "name": "Nadur Monje (Lotus Stem Fritters)",
+        "course": "starter",
+        "isVeg": true,
+        "description": "A popular Kashmiri street snack: crisp, golden lotus stem fritters, crunchy outside and tender within.",
+        "ingredients": [
+          {
+            "id": "lotus-stem",
+            "name": "Lotus stem",
+            "quantity": "250 gms",
+            "alternatives": [],
+            "sourceText": "- Lotus stem...250 gms"
+          },
+          {
+            "id": "rice-flour",
+            "name": "Rice flour",
+            "quantity": "aprox.250gms",
+            "alternatives": [],
+            "sourceText": "- Rice flour aprox.250gms,"
+          },
+          {
+            "id": "kashmiri-red-chilly-powder",
+            "name": "Kashmiri red chilly powder",
+            "quantity": "1 tsp",
+            "alternatives": [],
+            "sourceText": "- 1 tsp Kashmiri red chilly powder"
+          },
+          {
+            "id": "ginger-powder",
+            "name": "ginger powder",
+            "quantity": "½ tsp",
+            "alternatives": [],
+            "sourceText": "- ½ tsp ginger powder"
+          },
+          {
+            "id": "carrom-seeds",
+            "name": "carrom seeds(ajwain)",
+            "quantity": "½ tsp",
+            "alternatives": [],
+            "sourceText": "- ½ tsp,carrom seeds(ajwain)"
+          },
+          {
+            "id": "salt",
+            "name": "salt/ to taste",
+            "quantity": "½ tsp",
+            "alternatives": [],
+            "sourceText": "- ½ tsp, salt/ to taste,"
+          },
+          {
+            "id": "mustard-oil",
+            "name": "mustard oil",
+            "quantity": null,
+            "alternatives": [],
+            "sourceText": "- mustard oil"
+          },
+          {
+            "id": "water",
+            "name": "water",
+            "quantity": "little",
+            "alternatives": [],
+            "sourceText": "- little water"
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "prepare lotus stem",
+            "action": "Lightly peel the lotus stem and cut it aprox. into 2 inch pieces.",
+            "ingredientIds": [
+              "lotus-stem"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "none",
+            "sourceText": "Lightly peel the lotus stem and cut it aprox. into 2 inch pieces."
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "prepare lotus stem",
+            "action": "Gently crush / beat it with a pestle to get rough thick finger chips like structure.",
+            "ingredientIds": [
+              "lotus-stem"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "rough thick finger chips like structure",
+            "warning": null,
+            "interaction": "none",
+            "sourceText": "Gently crush / beat it with a pestle to get rough thick finger chips like structure."
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "wash and drain",
+            "action": "Wash it thoroughly with water and let it drain.",
+            "ingredientIds": [
+              "lotus-stem",
+              "water"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "none",
+            "sourceText": "Wash it thoroughly with water and let it drain."
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "season lotus stem",
+            "action": "Sprinkle little salt on the cut lotus stem",
+            "ingredientIds": [
+              "salt",
+              "lotus-stem"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "sprinkle_stir",
+            "sourceText": "Sprinkle little salt on the cut lotus stem"
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "prepare batter",
+            "action": "Prepare a thick batter using rice flour, red chilli powder, carom seeds, ginger powder, and salt.",
+            "ingredientIds": [
+              "rice-flour",
+              "kashmiri-red-chilly-powder",
+              "carrom-seeds",
+              "ginger-powder",
+              "salt"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "thick batter",
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "Prepare a thick batter using rice flour, red chilli powder, carom seeds, ginger powder, and salt."
+          },
+          {
+            "id": "step-6",
+            "order": 6,
+            "phase": "fry",
+            "action": "Dip the lotus stem pieces into the batter and deep-fry in hot mustard oil until golden and crunchy.",
+            "ingredientIds": [
+              "lotus-stem",
+              "rice-flour",
+              "kashmiri-red-chilly-powder",
+              "carrom-seeds",
+              "ginger-powder",
+              "salt",
+              "mustard-oil"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "golden and crunchy",
+            "warning": null,
+            "interaction": "deep_fry",
+            "sourceText": "Dip the lotus stem pieces into the batter and deep-fry in hot mustard oil until golden and crunchy."
+          },
+          {
+            "id": "step-7",
+            "order": 7,
+            "phase": "serve",
+            "action": "Serve hot with a cup of  Kehwa (green tea)",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "Serve hot with a cup of  Kehwa (green tea)"
+          }
+        ],
+        "variants": [],
+        "servingNote": "Serve hot with a cup of  Kehwa (green tea)",
+        "flags": [
+          {
+            "type": "quantity_ambiguity",
+            "message": "The salt ingredient lists “½ tsp” and also “to taste”; both are recorded as written."
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 2
+    },
+    {
+      "slug": "rogan-josh",
+      "data": {
+        "slug": "rogan-josh",
+        "name": "Rogan Josh",
+        "course": "main",
+        "isVeg": false,
+        "description": "A rich, bright red lamb curry flavoured with fennel, ginger, asafoetida, Yogurt and of course some whole spices as well.",
+        "ingredients": [
+          {
+            "id": "mutton",
+            "name": "Mutton",
+            "quantity": "1 Kg",
+            "alternatives": [],
+            "sourceText": "- Mutton : 1 Kg (with bone from shoulder and ribs portion cut into medium pieces"
+          },
+          {
+            "id": "mustard-oil",
+            "name": "Mustard Oil",
+            "quantity": "4 to 5 table spoons",
+            "alternatives": [],
+            "sourceText": "- Mustard Oil: 4 to 5 table spoons"
+          },
+          {
+            "id": "asafoetida-heeng",
+            "name": "Asafoetida (Heeng)",
+            "quantity": "pinch/less than ¼ tsp",
+            "alternatives": [],
+            "sourceText": "- Asafoetida (Heeng) – pinch/less than ¼ tsp"
+          },
+          {
+            "id": "bay-leaves",
+            "name": "bay leaves",
+            "quantity": "2",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "- Whole spices – 2 bay leaves, 1 inch cinnamon stick, 5 cloves, 1 black cardamom, 4 green cardamom."
+          },
+          {
+            "id": "cinnamon-stick",
+            "name": "cinnamon stick",
+            "quantity": "1 inch",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "- Whole spices – 2 bay leaves, 1 inch cinnamon stick, 5 cloves, 1 black cardamom, 4 green cardamom."
+          },
+          {
+            "id": "cloves",
+            "name": "cloves",
+            "quantity": "5",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "- Whole spices – 2 bay leaves, 1 inch cinnamon stick, 5 cloves, 1 black cardamom, 4 green cardamom."
+          },
+          {
+            "id": "black-cardamom",
+            "name": "black cardamom",
+            "quantity": "1",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "- Whole spices – 2 bay leaves, 1 inch cinnamon stick, 5 cloves, 1 black cardamom, 4 green cardamom."
+          },
+          {
+            "id": "green-cardamom",
+            "name": "green cardamom",
+            "quantity": "4",
+            "group": "Whole spices",
+            "alternatives": [],
+            "sourceText": "- Whole spices – 2 bay leaves, 1 inch cinnamon stick, 5 cloves, 1 black cardamom, 4 green cardamom."
+          },
+          {
+            "id": "yoghurt-curd",
+            "name": "Yoghurt (Curd)",
+            "quantity": "150-200 gms",
+            "alternatives": [],
+            "sourceText": "- Yoghurt (Curd): 150-200 gms (whisked)"
+          },
+          {
+            "id": "kashmiri-red-chilli-powder",
+            "name": "kashmiri red chilli powder",
+            "quantity": "4 tsp",
+            "group": "Ground spices",
+            "alternatives": [],
+            "sourceText": "- 4 tsp kashmiri red chilli powder (for colour and mild heat)"
+          },
+          {
+            "id": "fennel-seed-powder",
+            "name": "fennel seed (saunf) powder",
+            "quantity": "2 tsp",
+            "group": "Ground spices",
+            "alternatives": [],
+            "sourceText": "- 2 tsp fennel seed (saunf) powder."
+          },
+          {
+            "id": "dry-ginger-powder",
+            "name": "dry ginger (sonth) powder",
+            "quantity": "1 tsp",
+            "group": "Ground spices",
+            "alternatives": [],
+            "sourceText": "- 1 tsp dry ginger (sonth) powder"
+          },
+          {
+            "id": "garam-masala-powder",
+            "name": "garam masala powder",
+            "quantity": "½ tsp",
+            "group": "Ground spices",
+            "alternatives": [],
+            "sourceText": "- ½ tsp garam masala powder"
+          },
+          {
+            "id": "salt",
+            "name": "Salt",
+            "quantity": "1½  to 2 tsp/ to taste",
+            "alternatives": [],
+            "sourceText": "- Salt : 1½  to 2 tsp/ to taste"
+          },
+          {
+            "id": "water",
+            "name": "Water",
+            "quantity": "500 ml – 600 ml – as needed",
+            "alternatives": [],
+            "sourceText": "- Water: 500 ml – 600 ml – as needed"
+          }
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "order": 1,
+            "phase": "Cooking",
+            "action": "Heat the mustard oil in a heavy-bottomed pan or wok until it reaches its smoking point. Then let it cool slightly",
+            "ingredientIds": [
+              "mustard-oil"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "smoking point",
+            "warning": null,
+            "interaction": "cool_wait",
+            "sourceText": "- Heat the mustard oil in a heavy-bottomed pan or wok until it reaches its smoking point. Then let it cool slightly"
+          },
+          {
+            "id": "step-2",
+            "order": 2,
+            "phase": "Cooking",
+            "action": "Add the bay leaves, cinnamon (break into few pieces), cloves, black/green cardamoms (slightly crushed). Let it crackle a bit",
+            "ingredientIds": [
+              "bay-leaves",
+              "cinnamon-stick",
+              "cloves",
+              "black-cardamom",
+              "green-cardamom"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": "crackle a bit",
+            "warning": null,
+            "interaction": "drop_in",
+            "sourceText": "- Add the bay leaves, cinnamon (break into few pieces), cloves, black/green cardamoms (slightly crushed). Let it crackle a bit"
+          },
+          {
+            "id": "step-3",
+            "order": 3,
+            "phase": "Cooking",
+            "action": "Add asafoetida, followed immediately by mutton pieces.",
+            "ingredientIds": [
+              "asafoetida-heeng",
+              "mutton"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "drop_in",
+            "sourceText": "- Add asafoetida, followed immediately by mutton pieces."
+          },
+          {
+            "id": "step-4",
+            "order": 4,
+            "phase": "Cooking",
+            "action": "Sear the meat over high heat for 8 to 10 minutes, until it turns slightly brown and the natural juices dry up.",
+            "ingredientIds": [
+              "mutton"
+            ],
+            "heat": "high",
+            "duration": "8 to 10 minutes",
+            "sensoryCue": "it turns slightly brown and the natural juices dry up",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "- Sear the meat over high heat for 8 to 10 minutes, until it turns slightly brown and the natural juices dry up."
+          },
+          {
+            "id": "step-5",
+            "order": 5,
+            "phase": "Cooking",
+            "action": "Add salt, stir in between, lower the heat",
+            "ingredientIds": [
+              "salt"
+            ],
+            "heat": "lowered",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "- Add salt, stir in between, lower the heat"
+          },
+          {
+            "id": "step-6",
+            "order": 6,
+            "phase": "Cooking",
+            "action": "Add Kashmiri chilli powder and mix it well.",
+            "ingredientIds": [
+              "kashmiri-red-chilli-powder"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "- Add Kashmiri chilli powder and mix it well."
+          },
+          {
+            "id": "step-7",
+            "order": 7,
+            "phase": "Cooking",
+            "action": "Add the whisked yoghurt mixture to the pan a little at a time stirring continuously to prevent curdling.",
+            "ingredientIds": [
+              "yoghurt-curd"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": "to prevent curdling",
+            "interaction": "slow_pour_with_stir",
+            "sourceText": "- Add the whisked yoghurt mixture to the pan a little at a time stirring continuously to prevent curdling."
+          },
+          {
+            "id": "step-8",
+            "order": 8,
+            "phase": "Cooking",
+            "action": "Cook the meat on medium-low heat until the Yoghurt is absorbed and the oil begins to separate.",
+            "ingredientIds": [
+              "mutton",
+              "yoghurt-curd"
+            ],
+            "heat": "medium-low",
+            "duration": null,
+            "sensoryCue": "the Yoghurt is absorbed and the oil begins to separate",
+            "warning": null,
+            "interaction": "heat_hold",
+            "sourceText": "- Cook the meat on medium-low heat until the Yoghurt is absorbed and the oil begins to separate."
+          },
+          {
+            "id": "step-9",
+            "order": 9,
+            "phase": "Cooking",
+            "action": "Stir in the fennel and ginger powder.",
+            "ingredientIds": [
+              "fennel-seed-powder",
+              "dry-ginger-powder"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "stir",
+            "sourceText": "- Stir in the fennel and ginger powder. Pour in enough water to make sufficient gravy."
+          },
+          {
+            "id": "step-10",
+            "order": 10,
+            "phase": "Cooking",
+            "action": "Pour in enough water to make sufficient gravy.",
+            "ingredientIds": [
+              "water"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "pour_water",
+            "sourceText": "- Stir in the fennel and ginger powder. Pour in enough water to make sufficient gravy."
+          },
+          {
+            "id": "step-11",
+            "order": 11,
+            "phase": "Cooking",
+            "action": "Cover the pan tightly and let it simmer on low heat for about 45 minutes, stirring occasionally, until the mutton is tender and a layer of red oil floats on the top.",
+            "ingredientIds": [
+              "mutton",
+              "water"
+            ],
+            "heat": "low",
+            "duration": "about 45 minutes",
+            "sensoryCue": "the mutton is tender and a layer of red oil floats on the top",
+            "warning": null,
+            "interaction": "cover_simmer",
+            "sourceText": "- Cover the pan tightly and let it simmer on low heat for about 45 minutes, stirring occasionally, until the mutton is tender and a layer of red oil floats on the top."
+          },
+          {
+            "id": "step-12",
+            "order": 12,
+            "phase": "Finishing",
+            "action": "Uncover, sprinkle the garam masala powder and stir gently.",
+            "ingredientIds": [
+              "garam-masala-powder"
+            ],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "gentle_stir",
+            "sourceText": "- Uncover, sprinkle the garam masala powder and stir gently."
+          },
+          {
+            "id": "step-13",
+            "order": 13,
+            "phase": "Resting",
+            "action": "Let it rest with lid on for 10 minutes",
+            "ingredientIds": [],
+            "heat": "off",
+            "duration": "10 minutes",
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "rest",
+            "sourceText": "- Let it rest with lid on for 10 minutes and serve hot with steaming boiled/cooked rice."
+          },
+          {
+            "id": "step-14",
+            "order": 14,
+            "phase": "Serving",
+            "action": "serve hot with steaming boiled/cooked rice.",
+            "ingredientIds": [],
+            "heat": "unspecified",
+            "duration": null,
+            "sensoryCue": null,
+            "warning": null,
+            "interaction": "plate",
+            "sourceText": "- Let it rest with lid on for 10 minutes and serve hot with steaming boiled/cooked rice."
+          }
+        ],
+        "variants": [
+          {
+            "name": "Pressure-cooked",
+            "replacesStepIds": [
+              "step-11"
+            ],
+            "steps": [
+              {
+                "id": "variant-pressure-step-1",
+                "order": 1,
+                "phase": "Cooking",
+                "action": "It can be pressure cooked as well. Process is same, except for cooking for 45 minutes, it can be cooked for 2 whistles after adding the water",
+                "ingredientIds": [
+                  "water"
+                ],
+                "heat": "unspecified",
+                "duration": "2 whistles",
+                "sensoryCue": null,
+                "warning": null,
+                "interaction": "pressure_whistles",
+                "sourceText": "**Note**: It can be pressure cooked as well. Process is same, except for cooking for 45 minutes, it can be cooked for 2 whistles after adding the water and then for another 5 minutes after reducing heat and wait till the lid gets released on its own."
+              },
+              {
+                "id": "variant-pressure-step-2",
+                "order": 2,
+                "phase": "Cooking",
+                "action": "then for another 5 minutes after reducing heat",
+                "ingredientIds": [],
+                "heat": "lowered",
+                "duration": "another 5 minutes",
+                "sensoryCue": null,
+                "warning": null,
+                "interaction": "heat_hold",
+                "sourceText": "**Note**: It can be pressure cooked as well. Process is same, except for cooking for 45 minutes, it can be cooked for 2 whistles after adding the water and then for another 5 minutes after reducing heat and wait till the lid gets released on its own."
+              },
+              {
+                "id": "variant-pressure-step-3",
+                "order": 3,
+                "phase": "Resting",
+                "action": "wait till the lid gets released on its own.",
+                "ingredientIds": [],
+                "heat": "unspecified",
+                "duration": null,
+                "sensoryCue": "the lid gets released on its own",
+                "warning": null,
+                "interaction": "rest",
+                "sourceText": "**Note**: It can be pressure cooked as well. Process is same, except for cooking for 45 minutes, it can be cooked for 2 whistles after adding the water and then for another 5 minutes after reducing heat and wait till the lid gets released on its own."
+              }
+            ],
+            "sourceText": "**Note**: It can be pressure cooked as well. Process is same, except for cooking for 45 minutes, it can be cooked for 2 whistles after adding the water and then for another 5 minutes after reducing heat and wait till the lid gets released on its own."
+          }
+        ],
+        "servingNote": "serve hot with steaming boiled/cooked rice.",
+        "flags": [
+          {
+            "type": "ambiguity",
+            "message": "The serving suggestion says “boiled/cooked rice”; the source does not specify which."
+          },
+          {
+            "type": "ambiguity",
+            "message": "The mutton ingredient description has an opening parenthesis but no closing parenthesis in the source."
+          }
+        ]
+      },
+      "status": "approved",
+      "version": 2
+    }
+  ],
+  "photos": [
+    {
+      "slot_id": "DISH-DUMAALOO",
+      "url": "/photos/DISH-DUMAALOO.png",
+      "alt": "Kashmiri Dum Aaloo in a serving bowl",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-KEHWA",
+      "url": "/photos/DISH-KEHWA.png",
+      "alt": "Kehwa in a cup with saffron strands",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-KONGPHIRIN",
+      "url": "/photos/DISH-KONGPHIRIN.jpg",
+      "alt": "A saffron semolina pudding (reference photo, not an actual Santosh dish) — photo by Sumit Surai, CC BY-SA 4.0, via Wikimedia Commons",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-MYAKHNI",
+      "url": "/photos/DISH-MYAKHNI.png",
+      "alt": "Mutton Yakhni in a serving bowl",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-NADRUYAKHNI",
+      "url": "/photos/DISH-NADRUYAKHNI.png",
+      "alt": "Nadru Yakhni in a serving pan",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-NADURMONJE",
+      "url": "/photos/DISH-NADURMONJE.png",
+      "alt": "Nadur Monje fritters, close up",
+      "status": "approved"
+    },
+    {
+      "slot_id": "DISH-ROGAN",
+      "url": "/photos/DISH-ROGAN.png",
+      "alt": "Rogan Josh in a serving bowl, red oil visible",
+      "status": "approved"
+    }
+  ]
+}

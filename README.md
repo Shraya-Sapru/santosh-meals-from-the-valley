@@ -37,18 +37,24 @@ Requirements: Node.js 20.9+ (tested on Node 24).
    npm run dev
    ```
 
-4. Open http://localhost:3000. A sample upcoming event is seeded
-   automatically into a local SQLite database at `data/santosh.db` on
-   first run — no separate setup step needed.
+4. Open http://localhost:3000. On first run, a local SQLite database is
+   created at `data/santosh.db` and seeded automatically with a sample
+   upcoming event **and** all 7 dishes already extracted and approved
+   (from `content/approved-seed.json`) — The Kitchen, Cook with Maej, and
+   The Table all work immediately, with no API key and no admin step
+   required.
 
 5. Admin screens live under `/admin` (recipe pipeline, events, photos).
    Default password: `santosh-kitchen` (override with `ADMIN_PASSWORD` in
    `.env` for a real deployment — not required to run the app).
 
-6. To see the recipe AI pipeline run: log in at `/admin/login`, go to
+6. To see the recipe AI pipeline run live (optional — requires a real
+   `PORTKEY_API_KEY` or `OPENAI_API_KEY`): log in at `/admin/login`, go to
    `/admin/recipes`, and click **Run all 7** (takes under a minute, calls
    the LLM once per dish). Then open **Review** on any dish to see the
-   source-vs-extracted comparison, flags, and the Approve gate.
+   source-vs-extracted comparison, flags, and the Approve gate. Approving
+   a dish again overwrites its pre-seeded version with the freshly
+   extracted one.
 
 No other service accounts or API keys are required: booking "payment" is
 a mock test-mode confirmation, illustrations are a hand-built local set,
