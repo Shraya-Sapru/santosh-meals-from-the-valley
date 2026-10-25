@@ -8,6 +8,9 @@ flow turns that into a real seat at the table.
 Full product spec: [`docs/SPEC.md`](docs/SPEC.md). Build conventions for
 contributors (including AI coding agents): [`CLAUDE.md`](CLAUDE.md).
 
+**MGT 409 final project submission:** [`report.html`](report.html) and
+[`slides.html`](slides.html) — both self-contained, open by double-click.
+
 ## Run it locally
 
 Requirements: Node.js 20.9+ (tested on Node 24).
