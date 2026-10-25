@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Santosh — Meals from the Valley
 
-## Getting Started
+A Kashmiri Pandit home supper club: an AI pipeline turns a family recipe
+document into verified, source-linked dish stories, an interactive
+simulation teaches you to cook the signature dish, and a simple booking
+flow turns that into a real seat at the table.
 
-First, run the development server:
+Full product spec: [`docs/SPEC.md`](docs/SPEC.md). Build conventions for
+contributors (including AI coding agents): [`CLAUDE.md`](CLAUDE.md).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Run it locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Requirements: Node.js 20.9+ (tested on Node 24).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+2. Set up your `.env`. Copy `.env.example` to `.env` and fill in
+   `PORTKEY_API_KEY` (course key — the app uses model `gpt-6-luna` through
+   Portkey automatically). If grading staff have their own `.env` one
+   folder above this repo, no local `.env` is needed — the app checks
+   there automatically.
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cp .env.example .env
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the dev server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. Open http://localhost:3000. A sample upcoming event is seeded
+   automatically into a local SQLite database at `data/santosh.db` on
+   first run — no separate setup step needed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Admin screens live under `/admin` (recipe pipeline, events, photos).
+   Default password: `santosh-kitchen` (override with `ADMIN_PASSWORD` in
+   `.env` for a real deployment — not required to run the app).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. To see the recipe AI pipeline run: log in at `/admin/login`, go to
+   `/admin/recipes`, and click **Run all 7** (takes under a minute, calls
+   the LLM once per dish). Then open **Review** on any dish to see the
+   source-vs-extracted comparison, flags, and the Approve gate.
+
+No other service accounts or API keys are required: booking "payment" is
+a mock test-mode confirmation, illustrations are a hand-built local set,
+and there is no external database or email provider to configure.
+
+## Stack
+
+Next.js (App Router) + TypeScript + Tailwind CSS v4, an embedded SQLite
+database (`better-sqlite3`, no external service), and an LLM pipeline
+that calls `gpt-6-luna` through Portkey (or your own `OPENAI_API_KEY`).
+See [`docs/SPEC.md`](docs/SPEC.md) for the full design system, data
+model, and build plan.
+
+## Status
+
+- **Phase 0 (Foundation):** done — design system, layout shell, local
+  database, admin login, home page.
+- **Phase 1 (Recipe pipeline):** done — ingest → segment → extract
+  (`gpt-6-luna`) → validate → review → approve, for all 7 dishes. Admin
+  screens at `/admin/recipes` and `/admin/review/[slug]`. Run `npm test`
+  for the validator unit tests and the Spice DNA fixture check.
+- **Next:** dish story pages, Cook with Maej simulation, and booking flow
+  — see `docs/SPEC.md` § Build plan.
